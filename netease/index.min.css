@@ -1,0 +1,31 @@
+.jump_netease{
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.check_id_btn{
+  text-align: center;
+  display: block;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.download_btn{
+  text-align: center;
+  display: block;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.clear_btn{
+  text-align: center;
+  display: block;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1rem;
+}

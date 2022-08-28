@@ -1,0 +1,38 @@
+.submit{
+  text-align: center;
+  display: block;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.check_qr{
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.notice{
+  float: right;
+  color: rgb(180, 180, 180);
+}
+
+.clear_info{
+  text-align: center;
+  display: block;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.loading{
+  position: relative;
+  margin: 40%;
+  z-index: 10;
+}
+
+#qrcpde{
+  z-index: 20;
+}

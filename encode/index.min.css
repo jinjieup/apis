@@ -1,0 +1,21 @@
+.encode-btn{
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.clear-btn{
+  padding: 1rem;
+}
+
+.clear-btn a {
+  display: block;
+  width: fit-content;
+  float: right;
+}
+
+.copy-btn{
+  display: block;
+  width: 50%;
+  margin: auto;
+}

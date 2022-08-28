@@ -1,0 +1,23 @@
+.joke-card{
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.select-page{
+  width: 50%;
+  margin: auto;
+}
+
+.select-page>*{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.jump{
+  width: 25%;
+  display: block;
+  margin: auto;
+}

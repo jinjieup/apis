@@ -1,0 +1,16 @@
+.server {
+  position: fixed;
+  width: 4rem;
+  top: 90%;
+  left: 93%;
+}
+
+.saying{
+  width: 85%;
+  margin: auto;
+}
+
+.card-list{
+  width: 85%;
+  margin: auto;
+}

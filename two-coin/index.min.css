@@ -1,0 +1,13 @@
+.select-btn{
+  width: 45%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.show-img{
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
