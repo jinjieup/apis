@@ -33,3 +33,8 @@
   width: 80%;
   margin: auto;
 }
+
+.input-notice{
+  float: right;
+  color: rgb(180, 180, 180);
+}
