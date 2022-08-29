@@ -161,6 +161,16 @@
             <i class="bi bi-clipboard-check"></i>
             复制UTF-8
           </a>
+        </div>
+        <div class="col-sm" style="padding: 0.5rem">
+          <a
+            href="#subtitle"
+            class="btn btn-primary copy-btn"
+            onclick="copy_base64()"
+          >
+            <i class="bi bi-clipboard-check"></i>
+            复制Base64
+          </a>
           <div class="position-fixed top-0 end-0 p-3" style="z-index: 5">
             <div
               id="utf8_toast"
@@ -183,16 +193,6 @@
               <div class="toast-body">UTF-8内容已复制完毕！</div>
             </div>
           </div>
-        </div>
-        <div class="col-sm" style="padding: 0.5rem">
-          <a
-            href="#subtitle"
-            class="btn btn-primary copy-btn"
-            onclick="copy_base64()"
-          >
-            <i class="bi bi-clipboard-check"></i>
-            复制Base64
-          </a>
           <div class="position-fixed top-0 end-0 p-3" style="z-index: 5">
             <div
               id="base64_toast"

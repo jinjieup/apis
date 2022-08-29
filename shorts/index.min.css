@@ -1,0 +1,35 @@
+.check-btn{
+  display: block;
+  width: 50%;
+  margin: auto;
+  min-width: max-content;
+}
+
+.create-btn{
+  display: block;
+  width: 50%;
+  margin: auto;
+  min-width: max-content;
+}
+
+.card-show{
+  padding: 1rem;
+}
+
+.card-show>.card{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.jump-btn{
+  width: fit-content;
+  display: block;
+  margin: auto;
+}
+
+.input-label{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}

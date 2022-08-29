@@ -14,3 +14,9 @@
   width: 85%;
   margin: auto;
 }
+
+.notice-btn{
+  width: fit-content;
+  display: block;
+  margin: auto;
+}
