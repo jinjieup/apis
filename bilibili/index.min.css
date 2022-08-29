@@ -9,3 +9,9 @@
   margin: auto;
   padding: 0.5rem;
 }
+
+.card-show {
+  width: 45rem;
+  display: block;
+  margin: auto;
+}
