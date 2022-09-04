@@ -1,0 +1,18 @@
+.sort-box {
+  padding: 1rem;
+  border-radius: 15px;
+  min-height: 3rem;
+}
+
+.notice {
+  width: 80%;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.sort-btn {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}

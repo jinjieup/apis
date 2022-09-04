@@ -1,0 +1,33 @@
+#cover_image{
+    width: 90%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.img-list{
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.body-content{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 0.3rem;
+}
+
+.news-title{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.content-subtitle-box{
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: gray;
+    margin-top: 1rem;
+}
