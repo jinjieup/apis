@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>免费邮件发送助手</title>
 
     <link
@@ -184,7 +185,7 @@
     </div>
 
     <!-- captcha verify box -->
-    <div class="container" style="width: 60%;margin: auto;">
+    <div class="container" id="verify" style="width: 60%;margin: auto;">
       <div class="row">
         <div class="col" style="text-align: center;margin: auto;">
           <p>验证码</p>
@@ -200,7 +201,7 @@
           </div>
         </div>
         <div class="col">
-          <a class="btn btn-primary" onclick="verify()" href="#" role="button">点击验证</a>
+          <a class="btn btn-primary" onclick="verify()" href="#verify" role="button">点击验证</a>
         </div>
       </div>
     </div>
