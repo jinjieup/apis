@@ -107,10 +107,24 @@
     <!-- white place holder -->
     <div class="container" style="height: 1rem"></div>
 
+    <!-- clear button -->
+    <div style="padding: 1rem;">
+      <a
+        href="#subtitle"
+        onclick="clear_info()"
+        id="clear_btn"
+        class="btn btn-primary"
+        style="margin-left: 80%;"
+      >
+        一键清空
+        <i class="bi bi-backspace"></i>
+      </a>
+    </div>
+
     <!-- information input group -->
     <div class="container">
       <div class="row" style="width: 80%; margin: auto">
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2"
               >*收件人邮箱：</span
@@ -125,7 +139,7 @@
             />
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2">发件人姓名：</span>
             <input
@@ -140,7 +154,7 @@
         </div>
       </div>
       <div class="row" style="width: 80%; margin: auto">
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2">抄送：</span>
             <input
@@ -153,7 +167,7 @@
             />
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2">密送：</span>
             <input
@@ -187,21 +201,21 @@
     <!-- captcha verify box -->
     <div class="container" id="verify" style="width: 60%;margin: auto;">
       <div class="row">
-        <div class="col" style="text-align: center;margin: auto;">
+        <div class="col-md-3" style="text-align: center;margin: auto;">
           <p>验证码</p>
         </div>
-        <div class="col">
+        <div class="col-md-3">
           <div class="input-group mb-3">
             <input type="text" id="v_input" class="form-control" placeholder="请输入验证码！" aria-label="Username" aria-describedby="basic-addon1">
           </div>
         </div>
-        <div class="col">
-          <div id="v_img" style="width: 150px;height: 40px;background-color: darkgrey;">
+        <div class="col-md-3">
+          <div id="v_img" style="width: 150px;height: 40px;background-color: darkgrey;margin:auto;">
             <img src="" alt="">
           </div>
         </div>
-        <div class="col">
-          <a class="btn btn-primary" onclick="verify()" href="#verify" role="button">点击验证</a>
+        <div class="col-md-3">
+          <a class="btn btn-primary" style="inline-size: -webkit-fill-available;margin-top: 5px;" onclick="verify()" href="#verify" role="button">点击验证</a>
         </div>
       </div>
     </div>
